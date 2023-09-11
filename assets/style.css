@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url('https://w.forfun.com/fetch/74/740bc20aa7384b6491e62db6a6038449.jpeg') no-repeat center center;
+    min-height: 100%;
+    background-size: cover;
+}
+
+h1,
+p,
+.box {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.result {
+    color: rgb(0, 47, 255);
+    font-size: 3rem;
+}
+
+.error {
+    color: red;
+    font-size: 3rem;
+}
+
+.btn,
+.form__select,
+.input {
+    width: 12rem;
+    border: none;
+    height: 2.8rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: brown;
+}
